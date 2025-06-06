@@ -11,7 +11,7 @@ const NavBarActions = () => {
     
     useEffect(() => {
         setisMounted(true);
-    }), [];
+    }, []);
 
     const router = useRouter();
     const cart = useCart();
